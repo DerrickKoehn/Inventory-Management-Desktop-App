@@ -46,74 +46,74 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddPartScreen.cs">
+    <Compile Include="Forms\AddPartScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddPartScreen.Designer.cs">
+    <Compile Include="Forms\AddPartScreen.Designer.cs">
       <DependentUpon>AddPartScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddProductScreen.cs">
+    <Compile Include="Forms\AddProductScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProductScreen.Designer.cs">
+    <Compile Include="Forms\AddProductScreen.Designer.cs">
       <DependentUpon>AddProductScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteVerificationBox.cs">
+    <Compile Include="Forms\DeleteVerificationBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteVerificationBox.Designer.cs">
+    <Compile Include="Forms\DeleteVerificationBox.Designer.cs">
       <DependentUpon>DeleteVerificationBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="ErrorMessageForm.cs">
+    <Compile Include="Forms\ErrorMessageForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ErrorMessageForm.Designer.cs">
+    <Compile Include="Forms\ErrorMessageForm.Designer.cs">
       <DependentUpon>ErrorMessageForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="InHouse.cs" />
-    <Compile Include="MainScreen.cs">
+    <Compile Include="Classes\InHouse.cs" />
+    <Compile Include="Forms\MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainScreen.Designer.cs">
+    <Compile Include="Forms\MainScreen.Designer.cs">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inventory.cs" />
-    <Compile Include="ModifyPartScreen.cs">
+    <Compile Include="Classes\Inventory.cs" />
+    <Compile Include="Forms\ModifyPartScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModifyPartScreen.Designer.cs">
+    <Compile Include="Forms\ModifyPartScreen.Designer.cs">
       <DependentUpon>ModifyPartScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModifyProductScreen.cs">
+    <Compile Include="Forms\ModifyProductScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModifyProductScreen.Designer.cs">
+    <Compile Include="Forms\ModifyProductScreen.Designer.cs">
       <DependentUpon>ModifyProductScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Outsourced.cs" />
-    <Compile Include="Part.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Outsourced.cs" />
+    <Compile Include="Classes\Part.cs" />
+    <Compile Include="Classes\Product.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddPartScreen.resx">
+    <EmbeddedResource Include="Forms\AddPartScreen.resx">
       <DependentUpon>AddPartScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddProductScreen.resx">
+    <EmbeddedResource Include="Forms\AddProductScreen.resx">
       <DependentUpon>AddProductScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteVerificationBox.resx">
+    <EmbeddedResource Include="Forms\DeleteVerificationBox.resx">
       <DependentUpon>DeleteVerificationBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ErrorMessageForm.resx">
+    <EmbeddedResource Include="Forms\ErrorMessageForm.resx">
       <DependentUpon>ErrorMessageForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainScreen.resx">
+    <EmbeddedResource Include="Forms\MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModifyPartScreen.resx">
+    <EmbeddedResource Include="Forms\ModifyPartScreen.resx">
       <DependentUpon>ModifyPartScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModifyProductScreen.resx">
+    <EmbeddedResource Include="Forms\ModifyProductScreen.resx">
       <DependentUpon>ModifyProductScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -138,5 +138,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
